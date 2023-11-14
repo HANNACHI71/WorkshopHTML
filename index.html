@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HANNACHI Portfolio</title>
+    <!-- Style -->
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          padding: 10px;
+          background-color:powderblue;
+        }
+        table, th, td {
+  border:1px solid black;
+}
+    </style>
+</head>
+
+<body style="background-color:powderblue;">
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+ 
+      <section id="about">
+        <h2 style="color:blue;">About Me</h2>
+        <img src="\image\photo_hannachi.png"alt="Image HANNACHI" width="100" height="100">
+        <p>My name is Mohamed Hannachi, I'm a front-end developer based in Tunisia. This is my first developed front-end with HTML.I'm passionate about web development</p>
+        <audio controls>
+            <source src="\audio\mohamedhannachi.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+    </section>
+ 
+
+    <!-- Work Section -->
+   
+    <section id="work">
+        <h2 style="color:blue;">Work</h2>
+        <p>From Web Components and UI/UX animations to React.JS, Redux, Vue.JS, and Node.JS. Check out my latest web software development portfolio projects.</p>
+        <dl>
+            <dt><b>Front-end</b></dt>
+            <dd>- HTML </dd>
+            <dd>- CSS </dd>
+            <dd>- JavaScript </dd>
+            <dd>- React </dd>
+            <dt><b>Back-end</b></dt>
+            <dd>- Node.js</dd>
+            <dd>- MangoDB</dd>
+            <dd>- Cloud Computing</dd>
+          </dl>
+            <iframe width="650" height="350"
+                src="https://www.youtube.com/embed/rRt-yvGQST0">
+            </iframe>
+    </section>
+
+
+    <!-- Resume Section -->
+    
+    <section id="resume">
+        <h2 style="color:blue;">Resume</h2>
+        <p> My passion for web development is evident in my commitment to staying updated with the latest technologies and trends, ensuring that my work is always at the forefront of innovation.</p>
+        <p> for any subsequent verification</p>
+        <table style="width:100%">
+            <tr>
+              <th>Company</th>
+              <th>Contact</th>
+            </tr>
+            <tr>
+              <td>GoMyCode</td>
+              <td>Farah Nefoussi</td>
+            </tr>
+            <tr>
+              <td>Amadeus</td>
+              <td>Walid Gouider</td>
+            </tr>
+          </table>
+    </section>
+ 
+
+    
+    <!-- Contact Section -->
+  
+    <section id="contact">
+        <h2 style="color:blue;">Contact Me</h2>
+        <!-- HTML form for contact -->
+        <form action="#" method="post">
+          <fieldset>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value=""></option>
+                <option value="Homme">Homme</option>
+                <option value="Femme">Femme</option>
+            </select><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required ><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required rows="10" cols="26"></textarea><br>
+
+            <input type="submit" value="Submit">
+          </fieldset>
+        </form>
+    </section>
+ 
+    <!-- Page Footer -->
+    <footer>
+        <p>&copy; 2023 HANNACHI MOHAMED. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
